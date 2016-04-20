@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60880C261CC7662D00351F6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60880C251CC7662D00351F6E /* main.m */; };
+		60880C291CC7662D00351F6E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60880C281CC7662D00351F6E /* AppDelegate.m */; };
+		60880C2C1CC7662D00351F6E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60880C2B1CC7662D00351F6E /* ViewController.m */; };
+		60880C311CC7662D00351F6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60880C301CC7662D00351F6E /* Assets.xcassets */; };
+		60880C3F1CC7662D00351F6E /* PanGestureAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60880C3E1CC7662D00351F6E /* PanGestureAnimationTests.m */; };
+		60880C4A1CC7662D00351F6E /* PanGestureAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60880C491CC7662D00351F6E /* PanGestureAnimationUITests.m */; };
+		60880C591CC7665500351F6E /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60880C581CC7665500351F6E /* NavigationViewController.m */; };
+		60880C5D1CC767B000351F6E /* NavigationPerfomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 60880C5C1CC767B000351F6E /* NavigationPerfomer.m */; };
+		60880C601CC7691400351F6E /* PushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60880C5F1CC7691400351F6E /* PushAnimation.m */; };
+		60880C631CC7692300351F6E /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 60880C621CC7692300351F6E /* PopAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60880C3B1CC7662D00351F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60880C191CC7662D00351F6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60880C201CC7662D00351F6E;
+			remoteInfo = PanGestureAnimation;
+		};
+		60880C461CC7662D00351F6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60880C191CC7662D00351F6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60880C201CC7662D00351F6E;
+			remoteInfo = PanGestureAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60880C211CC7662D00351F6E /* PanGestureAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanGestureAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60880C251CC7662D00351F6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60880C271CC7662D00351F6E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60880C281CC7662D00351F6E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60880C2A1CC7662D00351F6E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60880C2B1CC7662D00351F6E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60880C301CC7662D00351F6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60880C351CC7662D00351F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60880C3A1CC7662D00351F6E /* PanGestureAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanGestureAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60880C3E1CC7662D00351F6E /* PanGestureAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureAnimationTests.m; sourceTree = "<group>"; };
+		60880C401CC7662D00351F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60880C451CC7662D00351F6E /* PanGestureAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanGestureAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60880C491CC7662D00351F6E /* PanGestureAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureAnimationUITests.m; sourceTree = "<group>"; };
+		60880C4B1CC7662D00351F6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60880C571CC7665500351F6E /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		60880C581CC7665500351F6E /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		60880C5B1CC767B000351F6E /* NavigationPerfomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationPerfomer.h; sourceTree = "<group>"; };
+		60880C5C1CC767B000351F6E /* NavigationPerfomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationPerfomer.m; sourceTree = "<group>"; };
+		60880C5E1CC7691400351F6E /* PushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimation.h; sourceTree = "<group>"; };
+		60880C5F1CC7691400351F6E /* PushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimation.m; sourceTree = "<group>"; };
+		60880C611CC7692300351F6E /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		60880C621CC7692300351F6E /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60880C1E1CC7662D00351F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60880C371CC7662D00351F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60880C421CC7662D00351F6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60880C181CC7662D00351F6E = {
+			isa = PBXGroup;
+			children = (
+				60880C231CC7662D00351F6E /* PanGestureAnimation */,
+				60880C3D1CC7662D00351F6E /* PanGestureAnimationTests */,
+				60880C481CC7662D00351F6E /* PanGestureAnimationUITests */,
+				60880C221CC7662D00351F6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60880C221CC7662D00351F6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60880C211CC7662D00351F6E /* PanGestureAnimation.app */,
+				60880C3A1CC7662D00351F6E /* PanGestureAnimationTests.xctest */,
+				60880C451CC7662D00351F6E /* PanGestureAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60880C231CC7662D00351F6E /* PanGestureAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				60880C5A1CC7679900351F6E /* Animation */,
+				60880C571CC7665500351F6E /* NavigationViewController.h */,
+				60880C581CC7665500351F6E /* NavigationViewController.m */,
+				60880C271CC7662D00351F6E /* AppDelegate.h */,
+				60880C281CC7662D00351F6E /* AppDelegate.m */,
+				60880C2A1CC7662D00351F6E /* ViewController.h */,
+				60880C2B1CC7662D00351F6E /* ViewController.m */,
+				60880C301CC7662D00351F6E /* Assets.xcassets */,
+				60880C351CC7662D00351F6E /* Info.plist */,
+				60880C241CC7662D00351F6E /* Supporting Files */,
+			);
+			path = PanGestureAnimation;
+			sourceTree = "<group>";
+		};
+		60880C241CC7662D00351F6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60880C251CC7662D00351F6E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60880C3D1CC7662D00351F6E /* PanGestureAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				60880C3E1CC7662D00351F6E /* PanGestureAnimationTests.m */,
+				60880C401CC7662D00351F6E /* Info.plist */,
+			);
+			path = PanGestureAnimationTests;
+			sourceTree = "<group>";
+		};
+		60880C481CC7662D00351F6E /* PanGestureAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60880C491CC7662D00351F6E /* PanGestureAnimationUITests.m */,
+				60880C4B1CC7662D00351F6E /* Info.plist */,
+			);
+			path = PanGestureAnimationUITests;
+			sourceTree = "<group>";
+		};
+		60880C5A1CC7679900351F6E /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				60880C5B1CC767B000351F6E /* NavigationPerfomer.h */,
+				60880C5C1CC767B000351F6E /* NavigationPerfomer.m */,
+				60880C5E1CC7691400351F6E /* PushAnimation.h */,
+				60880C5F1CC7691400351F6E /* PushAnimation.m */,
+				60880C611CC7692300351F6E /* PopAnimation.h */,
+				60880C621CC7692300351F6E /* PopAnimation.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60880C201CC7662D00351F6E /* PanGestureAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60880C4E1CC7662D00351F6E /* Build configuration list for PBXNativeTarget "PanGestureAnimation" */;
+			buildPhases = (
+				60880C1D1CC7662D00351F6E /* Sources */,
+				60880C1E1CC7662D00351F6E /* Frameworks */,
+				60880C1F1CC7662D00351F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanGestureAnimation;
+			productName = PanGestureAnimation;
+			productReference = 60880C211CC7662D00351F6E /* PanGestureAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60880C391CC7662D00351F6E /* PanGestureAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60880C511CC7662D00351F6E /* Build configuration list for PBXNativeTarget "PanGestureAnimationTests" */;
+			buildPhases = (
+				60880C361CC7662D00351F6E /* Sources */,
+				60880C371CC7662D00351F6E /* Frameworks */,
+				60880C381CC7662D00351F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60880C3C1CC7662D00351F6E /* PBXTargetDependency */,
+			);
+			name = PanGestureAnimationTests;
+			productName = PanGestureAnimationTests;
+			productReference = 60880C3A1CC7662D00351F6E /* PanGestureAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60880C441CC7662D00351F6E /* PanGestureAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60880C541CC7662D00351F6E /* Build configuration list for PBXNativeTarget "PanGestureAnimationUITests" */;
+			buildPhases = (
+				60880C411CC7662D00351F6E /* Sources */,
+				60880C421CC7662D00351F6E /* Frameworks */,
+				60880C431CC7662D00351F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60880C471CC7662D00351F6E /* PBXTargetDependency */,
+			);
+			name = PanGestureAnimationUITests;
+			productName = PanGestureAnimationUITests;
+			productReference = 60880C451CC7662D00351F6E /* PanGestureAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60880C191CC7662D00351F6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = itrandy.com;
+				TargetAttributes = {
+					60880C201CC7662D00351F6E = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					60880C391CC7662D00351F6E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 60880C201CC7662D00351F6E;
+					};
+					60880C441CC7662D00351F6E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 60880C201CC7662D00351F6E;
+					};
+				};
+			};
+			buildConfigurationList = 60880C1C1CC7662D00351F6E /* Build configuration list for PBXProject "PanGestureAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60880C181CC7662D00351F6E;
+			productRefGroup = 60880C221CC7662D00351F6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60880C201CC7662D00351F6E /* PanGestureAnimation */,
+				60880C391CC7662D00351F6E /* PanGestureAnimationTests */,
+				60880C441CC7662D00351F6E /* PanGestureAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60880C1F1CC7662D00351F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60880C311CC7662D00351F6E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60880C381CC7662D00351F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60880C431CC7662D00351F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60880C1D1CC7662D00351F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60880C591CC7665500351F6E /* NavigationViewController.m in Sources */,
+				60880C5D1CC767B000351F6E /* NavigationPerfomer.m in Sources */,
+				60880C601CC7691400351F6E /* PushAnimation.m in Sources */,
+				60880C2C1CC7662D00351F6E /* ViewController.m in Sources */,
+				60880C631CC7692300351F6E /* PopAnimation.m in Sources */,
+				60880C291CC7662D00351F6E /* AppDelegate.m in Sources */,
+				60880C261CC7662D00351F6E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60880C361CC7662D00351F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60880C3F1CC7662D00351F6E /* PanGestureAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60880C411CC7662D00351F6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60880C4A1CC7662D00351F6E /* PanGestureAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60880C3C1CC7662D00351F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60880C201CC7662D00351F6E /* PanGestureAnimation */;
+			targetProxy = 60880C3B1CC7662D00351F6E /* PBXContainerItemProxy */;
+		};
+		60880C471CC7662D00351F6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60880C201CC7662D00351F6E /* PanGestureAnimation */;
+			targetProxy = 60880C461CC7662D00351F6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		60880C4C1CC7662D00351F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60880C4D1CC7662D00351F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60880C4F1CC7662D00351F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PanGestureAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogujie.PanGestureAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60880C501CC7662D00351F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = PanGestureAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogujie.PanGestureAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60880C521CC7662D00351F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PanGestureAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogujie.PanGestureAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanGestureAnimation.app/PanGestureAnimation";
+			};
+			name = Debug;
+		};
+		60880C531CC7662D00351F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PanGestureAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogujie.PanGestureAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanGestureAnimation.app/PanGestureAnimation";
+			};
+			name = Release;
+		};
+		60880C551CC7662D00351F6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PanGestureAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogujie.PanGestureAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PanGestureAnimation;
+			};
+			name = Debug;
+		};
+		60880C561CC7662D00351F6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PanGestureAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mogujie.PanGestureAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PanGestureAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60880C1C1CC7662D00351F6E /* Build configuration list for PBXProject "PanGestureAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60880C4C1CC7662D00351F6E /* Debug */,
+				60880C4D1CC7662D00351F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60880C4E1CC7662D00351F6E /* Build configuration list for PBXNativeTarget "PanGestureAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60880C4F1CC7662D00351F6E /* Debug */,
+				60880C501CC7662D00351F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60880C511CC7662D00351F6E /* Build configuration list for PBXNativeTarget "PanGestureAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60880C521CC7662D00351F6E /* Debug */,
+				60880C531CC7662D00351F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60880C541CC7662D00351F6E /* Build configuration list for PBXNativeTarget "PanGestureAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60880C551CC7662D00351F6E /* Debug */,
+				60880C561CC7662D00351F6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60880C191CC7662D00351F6E /* Project object */;
+}

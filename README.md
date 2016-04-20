@@ -1,2 +1,2 @@
 # PanGestureAnimation
-手势滑动返回
+自定义pop、push动画，添加滑动返回效果
